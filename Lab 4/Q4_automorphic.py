@@ -1,0 +1,9 @@
+n=int(input())
+s=str(n)
+l=len(s)
+t=pow(10,l)
+v=n**2
+if(v%t==n):
+    print("automorphic")
+else:
+    print("not")
